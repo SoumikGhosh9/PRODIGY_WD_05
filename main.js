@@ -11,7 +11,7 @@ search.addEventListener("click", () => {
   if (city == "") return;
 
   fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=$e0db53746a6dbcb4cf44a1e84e7a181a`
   )
     .then((response) => response.json())
     .then((json) => {
